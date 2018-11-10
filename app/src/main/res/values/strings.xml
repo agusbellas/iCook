@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">iCook</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">iCook</string>
+    <string name="nav_header_subtitle">Cocinando contigo.</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="action_fav">Favoritos</string>
+    <string name="action_rated">Valorados</string>
+    <string name="action_firsts">Entrantes</string>
+    <string name="action_second">Principales</string>
+    <string name="action_last">Postres</string>
+
+    <string name="action_preferences">Preferencias</string>
+    <string name="action_add_receipe">Añadir receta</string>
+    <string name="action_xml_reader">Cargar XML</string>
+
+    <string name="recetas">Recetas:</string>
+
+    <string name="action_change">Modificar</string>
+    <string name="action_delete">Eliminar</string>
+
+
+    <string name="lbl_preparacion">Preparacion</string>
+    <string name="lbl_Ingredientes">Ingredientes</string>
+    <string name="lbl_Valora">Valora:</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_preferences"
+        android:orderInCategory="1"
+        android:title="@string/action_preferences"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_add_receipe"
+        android:orderInCategory="2"
+        android:title="@string/action_add_receipe"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_xml_reader"
+        android:orderInCategory="2"
+        android:title="@string/action_xml_reader"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always"
+        android:title="Search" />
+
+</menu>

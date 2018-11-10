@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_add_receipe">Add receipe</string>
+    <string name="action_change">Change</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_fav">Favourites</string>
+    <string name="action_firsts">Entrées</string>
+    <string name="action_last">Deserts</string>
+    <string name="action_preferences">Preferences</string>
+    <string name="action_rated">Rated</string>
+    <string name="action_second">Main courses</string>
+    <string name="action_xml_reader">Charge XML</string>
+    <string name="app_name">iCook</string>
+    <string name="lbl_Ingredientes">Ingredients</string>
+    <string name="lbl_Valora">Rate:</string>
+    <string name="lbl_preparacion">Preparation</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_subtitle">Cooking with you.</string>
+    <string name="nav_header_title">iCook</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="recetas">Receipes:</string>
+</resources>

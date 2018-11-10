@@ -1,0 +1,130 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:2:1-43:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\c3bb55f15b6c62424d1b882853cc39df\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\fa375d48d8cd5e205ba675819f2ba0da\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\38ca1fd8ef0182c524e4aca472e9ba99\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\4a3929bf1a5c5a7fc33bcbc862dcfc9a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\0cdc15ec4f807ef07b98d2b17a691f6a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\da4d725bc709621692fdc9883f839d76\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\2d1260da5924b293644c55c9170feab0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\870c53059a270b6e1d40903c056156aa\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\cbcc19d9415b36cef776aea6c0a1241f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\d07037bf5f3ef51af527f61593fb7434\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\748a9a39d33f1428f9257e2a744cba76\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\177bc8f6d6913b7a246a9446b4da7625\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\4b4bdaaae8222cf8cb939a11282b608d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\ed2f56c804091378c6e234202cfd36da\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\5f965e4022a5caccb2ddf2fbf67ab72b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\6962bbafee5006af0cb4fb20aeddd90a\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\9d9ab33def558caae0aaf6d91a464f04\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:2:1-43:12
+	package
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:2:1-43:12
+		INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:2:1-43:12
+		INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:5:5-40:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\38ca1fd8ef0182c524e4aca472e9ba99\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\38ca1fd8ef0182c524e4aca472e9ba99\AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:9:9-46
+	android:icon
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:7:9-41
+	android:allowBackup
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:11:9-52
+activity#com.cifprodolfoucha.icook.Menu_Principal_iCook
+ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:14:9-23:20
+	android:label
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:16:13-45
+	android:theme
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:17:13-56
+	android:name
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:15:13-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:21:27-74
+activity#com.cifprodolfoucha.icook.ListarRecetas
+ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:37:9-60
+	android:name
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:37:19-48
+activity#com.cifprodolfoucha.icook.DetallesReceta
+ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:38:9-61
+	android:name
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:38:19-49
+uses-sdk
+INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\c3bb55f15b6c62424d1b882853cc39df\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\c3bb55f15b6c62424d1b882853cc39df\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\fa375d48d8cd5e205ba675819f2ba0da\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\fa375d48d8cd5e205ba675819f2ba0da\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\38ca1fd8ef0182c524e4aca472e9ba99\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\38ca1fd8ef0182c524e4aca472e9ba99\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\4a3929bf1a5c5a7fc33bcbc862dcfc9a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\4a3929bf1a5c5a7fc33bcbc862dcfc9a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\0cdc15ec4f807ef07b98d2b17a691f6a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\0cdc15ec4f807ef07b98d2b17a691f6a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\da4d725bc709621692fdc9883f839d76\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\da4d725bc709621692fdc9883f839d76\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\2d1260da5924b293644c55c9170feab0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\2d1260da5924b293644c55c9170feab0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\870c53059a270b6e1d40903c056156aa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\870c53059a270b6e1d40903c056156aa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\cbcc19d9415b36cef776aea6c0a1241f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\cbcc19d9415b36cef776aea6c0a1241f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\d07037bf5f3ef51af527f61593fb7434\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\d07037bf5f3ef51af527f61593fb7434\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\748a9a39d33f1428f9257e2a744cba76\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\748a9a39d33f1428f9257e2a744cba76\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\177bc8f6d6913b7a246a9446b4da7625\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\177bc8f6d6913b7a246a9446b4da7625\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\4b4bdaaae8222cf8cb939a11282b608d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\4b4bdaaae8222cf8cb939a11282b608d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\ed2f56c804091378c6e234202cfd36da\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\ed2f56c804091378c6e234202cfd36da\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\5f965e4022a5caccb2ddf2fbf67ab72b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\5f965e4022a5caccb2ddf2fbf67ab72b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\6962bbafee5006af0cb4fb20aeddd90a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\6962bbafee5006af0cb4fb20aeddd90a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\9d9ab33def558caae0aaf6d91a464f04\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\9d9ab33def558caae0aaf6d91a464f04\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml
