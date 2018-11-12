@@ -33,7 +33,7 @@ public class Adaptador extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
 
         //creamos una vista a partir del layout elementolista
-        final View vista = inflater.inflate(R.layout.elemento_lista,null);
+        final View vista = inflater.inflate(R.layout.modelo_lista,null);
 
         //introducimos los valores a partir de los id
         TextView nombre = (TextView) vista.findViewById(R.id.txt_titulo_receta);

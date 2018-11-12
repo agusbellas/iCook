@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <include layout="@layout/activity_detalles_receta"/>
+    <include layout="@layout/activity_detalles_conteint"/>
 
 
     <android.support.design.widget.FloatingActionButton

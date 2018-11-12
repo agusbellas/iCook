@@ -20,7 +20,7 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/activity_listar_recetas" />
+    <include layout="@layout/activity_listar_conteint" />
 
 
     <!-- Futuro boton de añadir recetas en caso de tener tiempo-->

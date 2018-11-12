@@ -3935,13 +3935,13 @@ public final class R {
     public static final int abc_search_view=0x7f0a0018;
     public static final int abc_select_dialog_material=0x7f0a0019;
     public static final int abc_tooltip=0x7f0a001a;
-    public static final int activity_detalles_main=0x7f0a001b;
-    public static final int activity_detalles_receta=0x7f0a001c;
-    public static final int activity_listar_main=0x7f0a001d;
-    public static final int activity_listar_recetas=0x7f0a001e;
+    public static final int activity_detalles=0x7f0a001b;
+    public static final int activity_detalles_conteint=0x7f0a001c;
+    public static final int activity_listar =0x7f0a001d;
+    public static final int activity_listar_conteint =0x7f0a001e;
     public static final int activity_navigation_drawer=0x7f0a001f;
-    public static final int app_bar_menu__principal_i_cook=0x7f0a0020;
-    public static final int content_menu__principal_i_cook=0x7f0a0021;
+    public static final int activity_principal =0x7f0a0020;
+    public static final int activity_principal_conteint =0x7f0a0021;
     public static final int design_bottom_navigation_item=0x7f0a0022;
     public static final int design_bottom_sheet_dialog=0x7f0a0023;
     public static final int design_layout_snackbar=0x7f0a0024;
@@ -3956,8 +3956,8 @@ public final class R {
     public static final int design_navigation_menu=0x7f0a002d;
     public static final int design_navigation_menu_item=0x7f0a002e;
     public static final int design_text_input_password_icon=0x7f0a002f;
-    public static final int elemento_lista=0x7f0a0030;
-    public static final int nav_header_menu__principal_i_cook=0x7f0a0031;
+    public static final int modelo_lista =0x7f0a0030;
+    public static final int modelo_header_navigation =0x7f0a0031;
     public static final int notification_action=0x7f0a0032;
     public static final int notification_action_tombstone=0x7f0a0033;
     public static final int notification_media_action=0x7f0a0034;
@@ -3979,8 +3979,8 @@ public final class R {
     public static final int support_simple_spinner_dropdown_item=0x7f0a0044;
   }
   public static final class menu {
-    public static final int activity_navigation_drawer_drawer=0x7f0b0000;
-    public static final int menu__principal_i_cook=0x7f0b0001;
+    public static final int menu_navigation_drawer =0x7f0b0000;
+    public static final int menu_appbar =0x7f0b0001;
     public static final int menu_longclick=0x7f0b0002;
   }
   public static final class mipmap {

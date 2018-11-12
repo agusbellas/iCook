@@ -1,6 +1,5 @@
 package com.cifprodolfoucha.icook;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -10,7 +9,6 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.Toast;
 
 public class ListarRecetas extends AppCompatActivity {
 
@@ -26,12 +24,18 @@ public class ListarRecetas extends AppCompatActivity {
 
     String[] ingredientes = {"huevos","patatas","sal"};
     int[] datosImg = {R.drawable.huevosfritos,R.drawable.ensalada,R.drawable.ic_fin_postre,R.drawable.presentacion};
-
+/*
+    @Nullable
+    @Override
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
+        return super.onCreateView(inflater, container, savedInstanceState);
+    }
+*/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_listar_main);
+        setContentView(R.layout.activity_listar);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -88,7 +92,7 @@ public class ListarRecetas extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu__principal_i_cook, menu);
+        getMenuInflater().inflate(R.menu.menu_appbar, menu);
         return true;
     }
 

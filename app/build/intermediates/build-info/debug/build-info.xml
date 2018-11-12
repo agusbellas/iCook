@@ -6,23 +6,26 @@
     density="420dpi"
     format="10"
     plugin-version="3.2.1"
-    timestamp="1541812877723"
+    timestamp="1541967445298"
     token="-8213391078080301252"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="297" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="85" />
     <task
         name="verifier"
-        duration="0" />
+        duration="11" />
 
+    <artifact
+        location="C:\Users\Agus\AndroidStudioProjects\iCook\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
     <artifact
         location="C:\Users\Agus\AndroidStudioProjects\iCook\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
         type="SPLIT" />
@@ -40,9 +43,6 @@
         type="SPLIT" />
     <artifact
         location="C:\Users\Agus\AndroidStudioProjects\iCook\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Agus\AndroidStudioProjects\iCook\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\Agus\AndroidStudioProjects\iCook\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
@@ -65,8 +65,11 @@
 
     <build
         build-mode="FULL"
-        timestamp="1541812877723"
+        timestamp="1541967445298"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\Agus\AndroidStudioProjects\iCook\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
         <artifact
             location="C:\Users\Agus\AndroidStudioProjects\iCook\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
@@ -84,9 +87,6 @@
             type="SPLIT" />
         <artifact
             location="C:\Users\Agus\AndroidStudioProjects\iCook\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Agus\AndroidStudioProjects\iCook\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Agus\AndroidStudioProjects\iCook\app\build\intermediates\split-apk\debug\slices\slice_5.apk"

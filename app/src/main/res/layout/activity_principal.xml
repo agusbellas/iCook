@@ -20,7 +20,7 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_menu__principal_i_cook" />
+    <include layout="@layout/activity_principal_conteint" />
 
 
 <!-- Futuro boton de añadir recetas en caso de tener tiempo-->

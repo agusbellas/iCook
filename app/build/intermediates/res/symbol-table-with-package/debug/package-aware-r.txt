@@ -1089,8 +1089,8 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_detalles_main
-layout activity_detalles_receta
+layout activity_detalles
+layout activity_detalles_conteint
 layout activity_listar_main
 layout activity_listar_recetas
 layout activity_navigation_drawer
