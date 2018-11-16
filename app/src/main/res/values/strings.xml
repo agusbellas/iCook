@@ -25,4 +25,11 @@
     <string name="lbl_preparacion">Preparacion</string>
     <string name="lbl_Ingredientes">Ingredientes</string>
     <string name="lbl_Valora">Valora:</string>
+
+    <string name="btn_SacarFoto">Sacar Foto</string>
+    <string name="lbl_nom">Introduzca nombre:</string>
+    <string name="lbl_ing">Introduzca ingredientes:</string>
+    <string name="lbl_prep">Introduzca preparacion:</string>
+
+
 </resources>

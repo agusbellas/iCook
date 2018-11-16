@@ -21,8 +21,12 @@
     <string name="action_change">Change</string>
     <string name="action_delete">Delete</string>
 
-
     <string name="lbl_preparacion">Preparation</string>
     <string name="lbl_Ingredientes">Ingredients</string>
     <string name="lbl_Valora">Rate:</string>
+
+    <string name="btn_SacarFoto">Take a picture</string>
+    <string name="lbl_nom">Set name:</string>
+    <string name="lbl_ing">Set ingredients:</string>
+    <string name="lbl_prep">Set preparation:</string>
 </resources>

@@ -23,7 +23,6 @@
     <include layout="@layout/activity_principal_conteint" />
 
 
-<!-- Futuro boton de añadir recetas en caso de tener tiempo-->
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/add_receipe"

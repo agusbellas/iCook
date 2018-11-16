@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:2:1-43:12
+ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:2:1-34:12
 MERGED from [com.android.support:design:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\c3bb55f15b6c62424d1b882853cc39df\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\fa375d48d8cd5e205ba675819f2ba0da\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\38ca1fd8ef0182c524e4aca472e9ba99\AndroidManifest.xml:2:1-11:12
@@ -21,65 +21,93 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Agus\.gradle\c
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\5f965e4022a5caccb2ddf2fbf67ab72b\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\6962bbafee5006af0cb4fb20aeddd90a\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\9d9ab33def558caae0aaf6d91a464f04\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:2:1-34:12
 	package
 		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:3:5-40
 		INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:2:1-43:12
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:2:1-34:12
 		INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:2:1-43:12
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:2:1-34:12
 		INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:6:5-78
+	android:name
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:7:5-64
+	android:name
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:7:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:9:5-75
+	android:name
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:9:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:10:5-78
+	android:name
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:10:22-76
 application
-ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:5:5-40:19
+ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:12:5-32:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\38ca1fd8ef0182c524e4aca472e9ba99\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Agus\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\38ca1fd8ef0182c524e4aca472e9ba99\AndroidManifest.xml:9:5-20
 	android:supportsRtl
-		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:17:9-35
 	android:label
-		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:15:9-41
 	android:roundIcon
-		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:9:9-46
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:16:9-46
 	android:icon
-		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:7:9-41
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:14:9-41
 	android:allowBackup
-		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:13:9-35
 	android:theme
-		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:11:9-52
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:18:9-52
 activity#com.cifprodolfoucha.icook.Menu_Principal_iCook
-ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:14:9-23:20
+ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:19:9-28:20
 	android:label
-		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:16:13-45
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:21:13-45
 	android:theme
-		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:17:13-56
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:22:13-56
 	android:name
-		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:15:13-49
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:20:13-49
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:26:27-74
 activity#com.cifprodolfoucha.icook.ListarRecetas
-ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:37:9-60
+ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:29:9-51
 	android:name
-		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:37:19-48
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:29:19-48
 activity#com.cifprodolfoucha.icook.DetallesReceta
-ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:38:9-61
+ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:30:9-52
 	android:name
-		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:38:19-49
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:30:19-49
+activity#com.cifprodolfoucha.icook.CrearReceta
+ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:31:9-58
+	android:name
+		ADDED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml:31:19-46
 uses-sdk
 INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Agus\AndroidStudioProjects\iCook\app\src\main\AndroidManifest.xml

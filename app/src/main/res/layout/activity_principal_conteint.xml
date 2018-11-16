@@ -49,9 +49,11 @@
     </TableRow>
 
     <Button
-        android:id="@+id/btn_favoritos"
-        android:layout_width="106dp"
+        android:id="@+id/btn_fav"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="258dp"
         android:layout_height="wrap_content"
+        android:drawableTop="@drawable/ic_fin_fav"
         android:text="@string/action_fav"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="16dp" />

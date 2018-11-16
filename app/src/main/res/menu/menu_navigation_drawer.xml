@@ -26,7 +26,7 @@
                 android:icon="@drawable/ic_favourites"
                 android:title="@string/action_fav" />
             <item
-                android:id="@+id/nav_others"
+                android:id="@+id/nav_rated"
                 android:icon="@drawable/ic_seen"
                 android:title="@string/action_rated" />
 

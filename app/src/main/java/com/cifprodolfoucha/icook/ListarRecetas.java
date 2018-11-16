@@ -2,6 +2,8 @@ package com.cifprodolfoucha.icook;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.ContextMenu;
@@ -10,16 +12,23 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
+import com.cifprodolfoucha.icook.clases.*;
+import com.cifprodolfoucha.icook.adaptadores.AdaptadorListar;
+
+import java.util.ArrayList;
+
 public class ListarRecetas extends AppCompatActivity {
 
     ListView lista;
+
+    ArrayList<Receta> recetas = new ArrayList<>();
 
     String[][] datos = {
 
             {"Huevos fritos","Principales","1h 15min","Huevos,Patatas,Sal","Rompes los huevos en una sarten y los sacas cuando esten listos."},
             {"Ensalada","Entrantes","15min","Lechuga","Echas lechuga en un bol. Le echas lo que quieras y lo aliñas."},
             {"Chocolate","Postres","5min","Chocolate","Sacas una tableta de la alacena y listo."},
-            {"Langostinos con gabardina","Entrantes","30min","16 langostinos,1 huevo,8 g de levadura,80 g de harina,60 ml de cerveza,1/2 limón,aceite de oliva virgen extra,sal,perejil","Para hacer la pasta orly, coloca el huevo en un bol y bátelo un poco con una varilla.\nAgrega la cerveza y sigue batiendo. \nIncorpora la harina, la levadura y una pizca de sal y sigue batiendo. \nDeja reposar 15 minutos.\nPela los langostinos dejándoles la parte final de la colita sin pelar. \nSazona. \nPásalos por la pasta orly y fríelos en una sartén con aceite. \nEscúrrelos sobre un plato cubierto con papel absorbente.\nSirve, adorna con el medio limón y una ramita de perejil."}
+            {"Langostinos con gabardina","Entrantes","30min","16 langostinos,1 huevo,8 g de levadura,80 g de harina,60 ml de cerveza,1/2 limón,aceite de oliva virgen extra,sal,perejil","Para hacer la pasta orly, coloca el huevo en un bol y bátelo un poco con una varilla.\nAgrega la cerveza y sigue batiendo. \nIncorpora la harina, la levadura y una pizca de sal y sigue batiendo. \nDeja reposar 15 minutos.\nPela los langostinos dejándoles la parte final de la colita sin pelar. \nSazona. \nPásalos por la pasta orly y fríelos en una sartén con aceite. \nEscúrrelos sobre un plato cubierto con papel absorbente.\nSirve, adorna con el medio limón y una ramita de perejil. asdasdasdasdasd\n ahsdhashdahsdhashdasd\n asdjasjdajsdjasjdjasdjajsdjasd\n \n aashdhasdahsdhasd"}
     };
 
     String[] ingredientes = {"huevos","patatas","sal"};
@@ -46,46 +55,51 @@ public class ListarRecetas extends AppCompatActivity {
         //referimos a la lista
         lista = (ListView) findViewById(R.id.lv_lista);
 
-        String[][] datosFin = null;
-        int[] datosImgFin = null;
-        int contador = 0;
-/*
-        for(int i = 0 ; i<datosImg.length;i++)
-            if (datos[i][1].equals(tipo)) {
-                datosFin[contador][1] = datos[i][1];
-                datosFin[contador][2] = datos[i][2];
-                datosFin[contador][3] = datos[i][3];
-                datosFin[contador][4] = datos[i][4];
-
-                datosImgFin[contador] = datosImg[i];
-                contador++;
+        FloatingActionButton addRec = (FloatingActionButton) findViewById(R.id.add_receipe);
+        addRec.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
             }
-*/
-        lista.setAdapter(new Adaptador(this,datos,datosImg));
+        });
+
+
+        for(int i = 0 ; i<datosImg.length;i++){
+
+            ArrayList<String> ingredientes = new ArrayList<>();
+            if(datos[i][1].toUpperCase().trim().equals(tipo.toUpperCase().trim())){
+
+                for(String s: datos[i][3].split(",")){
+                    ingredientes.add(s);
+                }
+                                       //id,      imagen,     nombre,     tipo,       tiempo,  ingredientes,preparacion
+                Receta r = new Receta(i+"",datosImg[i],datos[i][0],datos[i][1],datos[i][2],ingredientes,datos[i][4] );
+                recetas.add(r);
+            }
+        }
+
+
+        lista.setAdapter(new AdaptadorListar(this,recetas));
 
         lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
+                Receta r = recetas.get(position);
+
                 Intent visorReceta = new Intent(view.getContext(),DetallesReceta.class);
-                visorReceta.putExtra("NOM",datos[position][0]);
-                visorReceta.putExtra("ING", datos[position][3]);
-                visorReceta.putExtra("PREP",datos[position][4]);
-                visorReceta.putExtra("IMG",datosImg[position]);
+
+                visorReceta.putExtra("NOM",r.getNombre());
+                visorReceta.putExtra("ING", r.getIngredientes());
+                visorReceta.putExtra("PREP",r.getPreparacion());
+                visorReceta.putExtra("IMG",r.getImagen());
+                visorReceta.putExtra("FAV",r.isFavorito());
+
+                //visorReceta.putExtra("RECETA",Receta r);
                 startActivity(visorReceta);
             }
         });
-/*
-
-        lista.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
-            @Override
-            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
-
-                Toast.makeText(ListarRecetas.this,"Pulsado", RECEIVER_VISIBLE_TO_INSTANT_APPS);
-
-                return false;
-            };
-        });*/
 
         registerForContextMenu(lista);
     }
