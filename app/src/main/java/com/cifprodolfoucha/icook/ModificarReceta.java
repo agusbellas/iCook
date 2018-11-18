@@ -39,17 +39,18 @@ public class ModificarReceta extends Activity {
             image.setImageBitmap(imageBitmap);
 
 
-            image.setOnLongClickListener(new View.OnLongClickListener() {
+            Button aceptar = (Button)findViewById(R.id.btn_confirmarR);
+            aceptar.setOnClickListener(new View.OnClickListener() {
                 @Override
-                public boolean onLongClick(View v) {
+                public void onClick(View view) {
 
                     image.buildDrawingCache();
                     Bitmap bmap = image.getDrawingCache();
 
-                    //guardamos imagen
+                    //guardar imagen
                     GuardarImagen savefile = new GuardarImagen();
-                    savefile.guardar(ModificarReceta.this, bmap);
-                    return false;
+                    savefile.guardar(CrearReceta.this, bmap);
+
                 }
             });
         }

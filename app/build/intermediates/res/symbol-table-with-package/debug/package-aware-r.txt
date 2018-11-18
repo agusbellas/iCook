@@ -868,6 +868,7 @@ id beginning
 id blocking
 id bottom
 id btnSacarF
+id btn_confirmarR
 id btn_entrantes
 id btn_fav
 id btn_postres

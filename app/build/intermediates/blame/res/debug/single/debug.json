@@ -60,12 +60,12 @@
         "source": "C:\\Users\\Agus\\AndroidStudioProjects\\iCook\\app\\src\\main\\res\\layout\\modelo_lista.xml"
     },
     {
-        "merged": "C:\\Users\\Agus\\AndroidStudioProjects\\iCook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_clear_material.xml.flat",
-        "source": "C:\\Users\\Agus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\fa375d48d8cd5e205ba675819f2ba0da\\res\\drawable\\abc_ic_clear_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Agus\\AndroidStudioProjects\\iCook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_focused_holo.9.png.flat",
         "source": "C:\\Users\\Agus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\fa375d48d8cd5e205ba675819f2ba0da\\res\\drawable-mdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Agus\\AndroidStudioProjects\\iCook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_clear_material.xml.flat",
+        "source": "C:\\Users\\Agus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\fa375d48d8cd5e205ba675819f2ba0da\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
         "merged": "C:\\Users\\Agus\\AndroidStudioProjects\\iCook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_design_ic_visibility.png.flat",
@@ -176,12 +176,12 @@
         "source": "C:\\Users\\Agus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\fa375d48d8cd5e205ba675819f2ba0da\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
-        "merged": "C:\\Users\\Agus\\AndroidStudioProjects\\iCook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_48dp.png.flat",
-        "source": "C:\\Users\\Agus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\fa375d48d8cd5e205ba675819f2ba0da\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png"
-    },
-    {
         "merged": "C:\\Users\\Agus\\AndroidStudioProjects\\iCook\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_seek_thumb.xml.flat",
         "source": "C:\\Users\\Agus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\fa375d48d8cd5e205ba675819f2ba0da\\res\\color-v23\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\Agus\\AndroidStudioProjects\\iCook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_48dp.png.flat",
+        "source": "C:\\Users\\Agus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\fa375d48d8cd5e205ba675819f2ba0da\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
         "merged": "C:\\Users\\Agus\\AndroidStudioProjects\\iCook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
@@ -300,16 +300,16 @@
         "source": "C:\\Users\\Agus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\fa375d48d8cd5e205ba675819f2ba0da\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
-        "merged": "C:\\Users\\Agus\\AndroidStudioProjects\\iCook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_photo_black.png.flat",
-        "source": "C:\\Users\\Agus\\AndroidStudioProjects\\iCook\\app\\src\\main\\res\\drawable-hdpi\\ic_photo_black.png"
+        "merged": "C:\\Users\\Agus\\AndroidStudioProjects\\iCook\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_spinner.xml.flat",
+        "source": "C:\\Users\\Agus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\fa375d48d8cd5e205ba675819f2ba0da\\res\\color\\abc_tint_spinner.xml"
     },
     {
         "merged": "C:\\Users\\Agus\\AndroidStudioProjects\\iCook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_tenedor.xml.flat",
         "source": "C:\\Users\\Agus\\AndroidStudioProjects\\iCook\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_tenedor.xml"
     },
     {
-        "merged": "C:\\Users\\Agus\\AndroidStudioProjects\\iCook\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_spinner.xml.flat",
-        "source": "C:\\Users\\Agus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\fa375d48d8cd5e205ba675819f2ba0da\\res\\color\\abc_tint_spinner.xml"
+        "merged": "C:\\Users\\Agus\\AndroidStudioProjects\\iCook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_photo_black.png.flat",
+        "source": "C:\\Users\\Agus\\AndroidStudioProjects\\iCook\\app\\src\\main\\res\\drawable-hdpi\\ic_photo_black.png"
     },
     {
         "merged": "C:\\Users\\Agus\\AndroidStudioProjects\\iCook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_name.png.flat",
@@ -328,12 +328,12 @@
         "source": "C:\\Users\\Agus\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\c3bb55f15b6c62424d1b882853cc39df\\res\\layout\\design_navigation_item_header.xml"
     },
     {
-        "merged": "C:\\Users\\Agus\\AndroidStudioProjects\\iCook\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_bottom_sheet_dialog.xml.flat",
-        "source": "C:\\Users\\Agus\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\c3bb55f15b6c62424d1b882853cc39df\\res\\layout\\design_bottom_sheet_dialog.xml"
-    },
-    {
         "merged": "C:\\Users\\Agus\\AndroidStudioProjects\\iCook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Agus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\fa375d48d8cd5e205ba675819f2ba0da\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Agus\\AndroidStudioProjects\\iCook\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_bottom_sheet_dialog.xml.flat",
+        "source": "C:\\Users\\Agus\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\c3bb55f15b6c62424d1b882853cc39df\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
         "merged": "C:\\Users\\Agus\\AndroidStudioProjects\\iCook\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media.xml.flat",
@@ -372,24 +372,24 @@
         "source": "C:\\Users\\Agus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\fa375d48d8cd5e205ba675819f2ba0da\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\Agus\\AndroidStudioProjects\\iCook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Agus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\fa375d48d8cd5e205ba675819f2ba0da\\res\\drawable-mdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\Agus\\AndroidStudioProjects\\iCook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "C:\\Users\\Agus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\fa375d48d8cd5e205ba675819f2ba0da\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Agus\\AndroidStudioProjects\\iCook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Agus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\fa375d48d8cd5e205ba675819f2ba0da\\res\\drawable-mdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Agus\\AndroidStudioProjects\\iCook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Agus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\fa375d48d8cd5e205ba675819f2ba0da\\res\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Agus\\AndroidStudioProjects\\iCook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
-        "source": "C:\\Users\\Agus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\fa375d48d8cd5e205ba675819f2ba0da\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
-    },
-    {
         "merged": "C:\\Users\\Agus\\AndroidStudioProjects\\iCook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "C:\\Users\\Agus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\fa375d48d8cd5e205ba675819f2ba0da\\res\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Agus\\AndroidStudioProjects\\iCook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
+        "source": "C:\\Users\\Agus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\fa375d48d8cd5e205ba675819f2ba0da\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
         "merged": "C:\\Users\\Agus\\AndroidStudioProjects\\iCook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tooltip_frame_dark.xml.flat",
@@ -416,12 +416,12 @@
         "source": "C:\\Users\\Agus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\fa375d48d8cd5e205ba675819f2ba0da\\res\\drawable-watch-v20\\abc_dialog_material_background.xml"
     },
     {
-        "merged": "C:\\Users\\Agus\\AndroidStudioProjects\\iCook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_seen.png.flat",
-        "source": "C:\\Users\\Agus\\AndroidStudioProjects\\iCook\\app\\src\\main\\res\\drawable-xhdpi\\ic_seen.png"
-    },
-    {
         "merged": "C:\\Users\\Agus\\AndroidStudioProjects\\iCook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_holo_dark.xml.flat",
         "source": "C:\\Users\\Agus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\fa375d48d8cd5e205ba675819f2ba0da\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Agus\\AndroidStudioProjects\\iCook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_seen.png.flat",
+        "source": "C:\\Users\\Agus\\AndroidStudioProjects\\iCook\\app\\src\\main\\res\\drawable-xhdpi\\ic_seen.png"
     },
     {
         "merged": "C:\\Users\\Agus\\AndroidStudioProjects\\iCook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
