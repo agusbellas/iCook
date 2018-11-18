@@ -1,17 +1,21 @@
 package com.cifprodolfoucha.icook;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.ContextMenu;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 
+import com.cifprodolfoucha.icook.Preferencias.DietaPref;
 import com.cifprodolfoucha.icook.clases.*;
 import com.cifprodolfoucha.icook.adaptadores.AdaptadorListar;
 
@@ -33,13 +37,7 @@ public class ListarRecetas extends AppCompatActivity {
 
     String[] ingredientes = {"huevos","patatas","sal"};
     int[] datosImg = {R.drawable.huevosfritos,R.drawable.ensalada,R.drawable.ic_fin_postre,R.drawable.presentacion};
-/*
-    @Nullable
-    @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
-        return super.onCreateView(inflater, container, savedInstanceState);
-    }
-*/
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,6 +46,18 @@ public class ListarRecetas extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        FloatingActionButton addRec = (FloatingActionButton) findViewById(R.id.add_receipe);
+        addRec.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent i = new Intent(ListarRecetas.this, CrearReceta.class);
+
+                startActivity(i);
+            }
+        });
+
+
         Intent intent = getIntent();
         Bundle bundle = intent.getExtras();
 
@@ -55,14 +65,6 @@ public class ListarRecetas extends AppCompatActivity {
         //referimos a la lista
         lista = (ListView) findViewById(R.id.lv_lista);
 
-        FloatingActionButton addRec = (FloatingActionButton) findViewById(R.id.add_receipe);
-        addRec.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
 
 
         for(int i = 0 ; i<datosImg.length;i++){
@@ -78,6 +80,8 @@ public class ListarRecetas extends AppCompatActivity {
                 recetas.add(r);
             }
         }
+
+
 
 
         lista.setAdapter(new AdaptadorListar(this,recetas));
@@ -102,7 +106,19 @@ public class ListarRecetas extends AppCompatActivity {
         });
 
         registerForContextMenu(lista);
+
+/*
+        lista.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
+
+
+
+            }
+        });*/
     }
+
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -111,11 +127,88 @@ public class ListarRecetas extends AppCompatActivity {
     }
 
     @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        int id = item.getItemId();
+
+        //noinspection SimplifiableIfStatement
+        if (id == R.id.action_preferences) {
+
+            Intent i = new Intent(ListarRecetas.this, DietaPref.class);
+
+            startActivity(i);
+
+        } else if(id == R.id.action_add_receipe){
+
+            Intent i = new Intent(ListarRecetas.this, CrearReceta.class);
+
+            startActivity(i);
+
+        } else if(id == R.id.action_xml_reader){
+
+        } else if(id == R.id.action_search){
+
+            BuscarReceta buscar = new BuscarReceta();
+            buscar.show(getSupportFragmentManager(),"buscar");
+        }
+
+        return super.onOptionsItemSelected(item);
+
+    }
+
+
+
+    @Override
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
         super.onCreateContextMenu(menu, v, menuInfo);
 
         getMenuInflater().inflate(R.menu.menu_longclick,menu);
     }
 
+    @Override
+    public boolean onContextItemSelected(MenuItem item) {
 
+        int id = item.getItemId();
+
+        if (id == R.id.long_eliminar) {
+
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+
+            builder.setMessage(R.string.eliminar);
+
+                builder.setPositiveButton(R.string.si, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+
+                        //Aqui iran las funciones para eliminar el elemento
+
+                        Toast.makeText(getApplicationContext(), "Eliminado",Toast.LENGTH_LONG).show();
+
+
+                    }
+                });
+
+                builder.setNegativeButton(R.string.no, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+
+                        dialog.cancel();
+                    }
+                });
+            builder.create();
+            builder.show();
+
+
+            //AlertDialog.Builder builder=null;   // Nos eventos de botón sempre imos 'construir' un Dialog
+
+        } else if(id == R.id.long_modificar){
+
+            Intent i = new Intent(ListarRecetas.this, CrearReceta.class);
+
+            startActivity(i);
+        }
+
+
+        return super.onContextItemSelected(item);
+    }
 }

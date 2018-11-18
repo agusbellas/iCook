@@ -17,10 +17,10 @@ import java.util.Calendar;
 public class GuardarImagen {
 
     private Context TheThis;
-    private String NameOfFolder = "/pics";
+    private String NameOfFolder = "/Pics";
     private String NameOfFile = "img";
 
-    public void GuardarImagen(Context context, Bitmap ImageToSave) {
+    public void guardar(Context context, Bitmap ImageToSave) {
 
         TheThis = context;
         String file_path = Environment.getExternalStorageDirectory().getAbsolutePath() + NameOfFolder;

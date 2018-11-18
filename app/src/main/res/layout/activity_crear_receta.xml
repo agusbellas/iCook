@@ -26,28 +26,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnSacarF" />
 
-    <TextView
-        android:id="@+id/lblIng"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="8dp"
-        android:text="@string/lbl_ing"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
-
-    <TextView
-        android:id="@+id/lblPrep"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:text="@string/lbl_prep"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2" />
-
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/txtNom"
         android:layout_width="342dp"
         android:layout_height="41dp"
         android:layout_marginStart="8dp"
@@ -60,8 +40,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lblNom" />
 
+    <TextView
+        android:id="@+id/lblIng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/lbl_ing"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNom" />
+
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/txtIng"
         android:layout_width="340dp"
         android:layout_height="41dp"
         android:layout_marginStart="8dp"
@@ -74,10 +64,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lblIng" />
 
+    <TextView
+        android:id="@+id/lblPrep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/lbl_prep"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtIng" />
+
     <EditText
-        android:id="@+id/editText3"
-        android:layout_width="353dp"
-        android:layout_height="33dp"
+        android:id="@+id/txtPrep"
+        android:layout_width="339dp"
+        android:layout_height="66dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -88,7 +88,7 @@
         app:layout_constraintTop_toBottomOf="@+id/lblPrep" />
 
     <ImageView
-        android:id="@+id/iv_sacarFoto"
+        android:id="@+id/iv_photo"
         android:layout_width="164dp"
         android:layout_height="118dp"
         android:layout_marginStart="8dp"
@@ -96,6 +96,25 @@
         android:layout_marginEnd="8dp"
         app:layout_constraintEnd_toStartOf="@+id/btnSacarF"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_action_name" />
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/lbl_tipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/lbl_tipo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPrep" />
+
+    <Spinner
+        android:id="@+id/sp_tipo"
+        android:layout_width="174dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:entries="@array/sp_tipos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_tipo" />
 </android.support.constraint.ConstraintLayout>

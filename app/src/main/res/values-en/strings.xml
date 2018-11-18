@@ -29,4 +29,21 @@
     <string name="lbl_nom">Set name:</string>
     <string name="lbl_ing">Set ingredients:</string>
     <string name="lbl_prep">Set preparation:</string>
+    <string name="lbl_tipo">Select the type:</string>
+
+    <string name="eliminar">Do you want to delete?</string>
+    <string name="si">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">Ok</string>
+
+    <string name="buscar">Search</string>
+    <string name="cancelar">Cancel</string>
+    <string name="aceptar">Acept</string>
+
+    <string name="dieta">Diet:</string>
+
+    <string name="veget">Vegetarian</string>
+    <string name="vegan">Vegan</string>
+    <string name="all">Onmivore</string>
+
 </resources>

@@ -45,7 +45,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.034"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/iv_sacarFoto" />
+                app:layout_constraintTop_toBottomOf="@+id/iv_photo" />
 
             <EditText
                 android:id="@+id/txtNom"
@@ -73,8 +73,8 @@
 
             <EditText
                 android:id="@+id/txtIng"
-                android:layout_width="477dp"
-                android:layout_height="38dp"
+                android:layout_width="481dp"
+                android:layout_height="37dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
                 android:ems="10"
@@ -97,8 +97,8 @@
 
             <EditText
                 android:id="@+id/txtPrep"
-                android:layout_width="477dp"
-                android:layout_height="28dp"
+                android:layout_width="483dp"
+                android:layout_height="36dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
                 android:ems="10"
@@ -111,7 +111,7 @@
                 app:layout_constraintVertical_bias="0.0" />
 
             <ImageView
-                android:id="@+id/iv_sacarFoto"
+                android:id="@+id/iv_photo"
                 android:layout_width="156dp"
                 android:layout_height="112dp"
                 android:layout_marginStart="8dp"
@@ -119,8 +119,30 @@
                 android:layout_marginEnd="8dp"
                 app:layout_constraintEnd_toStartOf="@+id/btnSacarF"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/ic_action_name" />
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/lbl_tipo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/lbl_tipo"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtPrep" />
+
+            <Spinner
+                android:id="@+id/sp_tipo"
+                android:layout_width="174dp"
+                android:layout_height="23dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:entries="@array/sp_tipos"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.067"
+                app:layout_constraintStart_toEndOf="@+id/lbl_tipo"
+                app:layout_constraintTop_toBottomOf="@+id/txtPrep" />
 
         </android.support.constraint.ConstraintLayout>
 

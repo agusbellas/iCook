@@ -1,4 +1,4 @@
-#Fri Nov 16 14:13:01 CET 2018
+#Sun Nov 18 17:54:43 CET 2018
 base.0=C\:\\Users\\Agus\\AndroidStudioProjects\\iCook\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
 path.0=classes.dex
 renamed.0=classes.dex
