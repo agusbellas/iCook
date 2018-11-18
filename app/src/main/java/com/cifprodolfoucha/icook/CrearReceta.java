@@ -5,7 +5,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.MediaStore;
@@ -13,15 +12,10 @@ import android.support.annotation.RequiresApi;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 import com.cifprodolfoucha.icook.adaptadores.GuardarImagen;
 
-import java.io.ByteArrayOutputStream;
-
-
 public class CrearReceta extends Activity {
-
 
     private static final int CAMERA_PERMISSION_REQUEST_CODE = 1;
     private static final int REQUEST_IMAGE_CAPTURE=1;
@@ -44,10 +38,10 @@ public class CrearReceta extends Activity {
             image = findViewById(R.id.iv_photo);
             image.setImageBitmap(imageBitmap);
 
-
-            image.setOnLongClickListener(new View.OnLongClickListener() {
+            Button aceptar = (Button)findViewById(R.id.btn_confirmarR);
+            aceptar.setOnClickListener(new View.OnClickListener() {
                 @Override
-                public boolean onLongClick(View v) {
+                public void onClick(View view) {
 
                     image.buildDrawingCache();
                     Bitmap bmap = image.getDrawingCache();
@@ -55,24 +49,11 @@ public class CrearReceta extends Activity {
                     //guardar imagen
                     GuardarImagen savefile = new GuardarImagen();
                     savefile.guardar(CrearReceta.this, bmap);
-                    return false;
+
                 }
             });
         }
     }
-
-    private void permissionGrantedF() {
-
-        Intent tomarFoto= new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-
-        if (tomarFoto.resolveActivity(getPackageManager()) !=null) {
-
-            startActivityForResult(tomarFoto, REQUEST_IMAGE_CAPTURE);
-
-        }
-    }
-
-
 
     @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
@@ -86,14 +67,18 @@ public class CrearReceta extends Activity {
             public void onClick(View view) {
                 if ((Build.VERSION.SDK_INT >= 24)) {
 
+                    //comprobamos permisos
                     if (checkSelfPermission(Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
-                        //Si el permiso no se encuentra concedido se solicita
+
                         requestPermissions(new String[]{Manifest.permission.CAMERA}, CAMERA_PERMISSION_REQUEST_CODE);
                     } else {
-                        //Si el permiso esá concedico prosigue con el flujo normal
-                        permissionGrantedF();
-                    }
 
+                        Intent tomarFoto= new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+
+                        if (tomarFoto.resolveActivity(getPackageManager()) !=null) {
+                            startActivityForResult(tomarFoto, REQUEST_IMAGE_CAPTURE);
+                        }
+                    }
                 }
             }
         });
@@ -102,7 +87,6 @@ public class CrearReceta extends Activity {
 
     @Override
     protected void onSaveInstanceState(Bundle savedInstanceState) {
-
 
         savedInstanceState.putParcelable("BitmapImage",imageBitmap);
         super.onSaveInstanceState(savedInstanceState);
@@ -113,9 +97,6 @@ public class CrearReceta extends Activity {
 
 
         if(savedInstanceState != null) {
-            //   byte[] byteArray = savedInstanceState.getByteArray("image");
-            //   Bitmap bit = BitmapFactory.decodeByteArray(byteArray, 0, byteArray.length);
-            //  image.setImageBitmap(bit);
 
             Bitmap bitmapimage = savedInstanceState.getParcelable("BitmapImage");
             image = findViewById(R.id.iv_photo);
