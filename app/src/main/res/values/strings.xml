@@ -25,4 +25,27 @@
     <string name="lbl_preparacion">Preparacion</string>
     <string name="lbl_Ingredientes">Ingredientes</string>
     <string name="lbl_Valora">Valora:</string>
+
+    <string name="btn_SacarFoto">Sacar Foto</string>
+    <string name="lbl_nom">Introduzca nombre:</string>
+    <string name="lbl_ing">Introduzca ingredientes:</string>
+    <string name="lbl_prep">Introduzca preparacion:</string>
+    <string name="lbl_tipo">Seleccione el tipo:</string>
+
+    <string name="eliminar">¿Desea eliminar la receta?</string>
+    <string name="si">Sí</string>
+    <string name="no">No</string>
+    <string name="ok">Ok</string>
+
+    <string name="buscar">Buscar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="aceptar">Aceptar</string>
+
+    <string name="dieta">Dieta:</string>
+
+    <string name="veget">Vegetariana</string>
+    <string name="vegan">Vegana</string>
+    <string name="all">Onmivora</string>
+
+
 </resources>

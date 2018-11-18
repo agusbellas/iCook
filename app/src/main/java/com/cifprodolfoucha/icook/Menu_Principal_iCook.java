@@ -3,7 +3,6 @@ package com.cifprodolfoucha.icook;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -14,12 +13,11 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
-import android.widget.ListView;
+
+import com.cifprodolfoucha.icook.Preferencias.DietaPref;
 
 public class Menu_Principal_iCook extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,8 +32,10 @@ public class Menu_Principal_iCook extends AppCompatActivity
         addRec.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+
+                Intent i = new Intent(Menu_Principal_iCook.this, CrearReceta.class);
+
+                startActivity(i);
             }
         });
 
@@ -78,6 +78,16 @@ public class Menu_Principal_iCook extends AppCompatActivity
                 startActivity(visorReceta);
             }
         });
+
+        Button favoritos = (Button) findViewById(R.id.btn_fav);
+        postres.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent visorReceta = new Intent(v.getContext(),ListarRecetas.class);
+                visorReceta.putExtra("TIPO","todos");
+                startActivity(visorReceta);
+            }
+        });
     }
 
     @Override
@@ -93,7 +103,7 @@ public class Menu_Principal_iCook extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu__principal_i_cook, menu);
+        getMenuInflater().inflate(R.menu.menu_appbar, menu);
         return true;
     }
 
@@ -106,7 +116,24 @@ public class Menu_Principal_iCook extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_preferences) {
-            return true;
+
+            Intent i = new Intent(Menu_Principal_iCook.this, DietaPref.class);
+
+            startActivity(i);
+
+
+        } else if(id == R.id.action_add_receipe){
+
+            Intent i = new Intent(Menu_Principal_iCook.this, CrearReceta.class);
+
+            startActivity(i);
+
+        } else if(id == R.id.action_xml_reader){
+
+        } else if(id == R.id.action_search){
+
+            BuscarReceta buscar = new BuscarReceta();
+            buscar.show(getSupportFragmentManager(),"buscar");
         }
 
         return super.onOptionsItemSelected(item);
@@ -120,16 +147,34 @@ public class Menu_Principal_iCook extends AppCompatActivity
 
         //acciones que ejecutaran dependiendo de la opcion del menu seleccionado
 
-        if (id == R.id.nav_favoritos) {
+        if (id == R.id.nav_entrantes) {
+            Intent i = new Intent(Menu_Principal_iCook.this, ListarRecetas.class);
 
-        } else if (id == R.id.nav_entrantes) {
+            i.putExtra("TIPO","Entrantes");
 
+            startActivity(i);
         } else if (id == R.id.nav_principales) {
 
+            Intent i = new Intent(Menu_Principal_iCook.this, ListarRecetas.class);
+
+            i.putExtra("TIPO","Principales");
+
+            startActivity(i);
+
         } else if (id == R.id.nav_postres) {
+            Intent i = new Intent(Menu_Principal_iCook.this, ListarRecetas.class);
+
+            i.putExtra("TIPO","Postres");
+
+            startActivity(i);
+
+        } else if (id == R.id.nav_favoritos) {
+
+        } else if(id == R.id.nav_rated){
 
         }
-        //Guardamos modelo en caso de que busquemos añadir mas al menu desplegable
+
+            //Guardamos modelo en caso de que busquemos añadir mas al menu desplegable
         /* else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {
@@ -140,4 +185,6 @@ public class Menu_Principal_iCook extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
+
 }

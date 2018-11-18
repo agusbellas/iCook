@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_entrantes"
+            android:icon="@drawable/ic_tenedor"
+            android:title="@string/action_firsts" />
+        <item
+            android:id="@+id/nav_principales"
+            android:icon="@drawable/ic_cuchillo"
+            android:title="@string/action_second" />
+        <item
+            android:id="@+id/nav_postres"
+            android:icon="@drawable/ic_cuchara"
+            android:title="@string/action_last" />
+    </group>
+
+    <item android:title="Ver otra vez">
+        <menu>
+            <item
+                android:id="@+id/nav_favoritos"
+                android:icon="@drawable/ic_favourites"
+                android:title="@string/action_fav" />
+            <item
+                android:id="@+id/nav_rated"
+                android:icon="@drawable/ic_seen"
+                android:title="@string/action_rated" />
+
+        </menu>
+
+    </item>
+    <!--
+        <item android:title="Social">
+            <menu>
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Compartir" />
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Sobre nosotros" />
+            </menu>
+        </item>
+    -->
+</menu>

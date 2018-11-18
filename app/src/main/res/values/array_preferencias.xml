@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sp_pref">
+        <item>@string/all</item>
+        <item>@string/veget</item>
+        <item>@string/vegan</item>
+    </string-array>
+</resources>
